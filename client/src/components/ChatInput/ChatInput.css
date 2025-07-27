@@ -1,0 +1,52 @@
+.message-input-container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  padding-top: 30px;
+}
+
+.message-input-container textarea {
+  flex: 1; 
+  margin-right: 10px; 
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none; 
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.message-input-container textarea:focus-visible {
+  outline: none;
+}
+
+.message-input-container textarea:focus {
+  border: 2px solid #0071c5;
+}
+
+.message-input-container button {
+  width: 100px;
+  height: 75px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: 2px solid #0071c5;
+  background-color: #0071c5;
+  cursor: pointer;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.message-input-container button:hover {
+  background-color: #2986cd;
+}
+
+button:disabled, 
+button:disabled:hover {
+  cursor: not-allowed;
+  background-color: rgb(238, 238, 238);
+  border: 2px solid #ccc;
+  color: #ccc;
+}

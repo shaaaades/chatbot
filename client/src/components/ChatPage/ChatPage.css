@@ -1,0 +1,27 @@
+.card {
+  border: none !important;
+  min-height: 20vh;
+  height: calc(100vh - 35px) !important;
+  margin: 15px 10px 0 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card-body {
+  margin: 20px;
+}
+
+
+@media (min-width: 900px) {
+  .card {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  .message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+  }
+}
